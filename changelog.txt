@@ -1,0 +1,35 @@
+Changelog
+
+*** WooCommerce Extension Name Changelog ***
+
+======================
+2024-09-30 - version 1.1.0
+======================
+- **New Tab in WooCommerce Settings:**
+  - Added a new tab named "AI" in WooCommerce settings.
+
+- **API Key Field Added:**
+  - Added a text field for the API key to connect with an AI API like OpenAI.
+
+- **Checkbox "Sosojanein" Added:**
+  - Added a checkbox named "Sosojanein" that users can enable or disable.
+  - Default value of the checkbox: disabled (`no`).
+
+- **Settings Save Functionality:**
+  - All new settings (API key and checkbox) are saved in the WordPress database and can be used in other parts of the plugin.
+
+======================
+2024-09-29 - version 1.0.0
+======================
+- **Initial Release:**
+  - Released the plugin that generates automatic AI-based product descriptions in WooCommerce.
+
+- **Automatic Product Descriptions:**
+  - Implemented functionality to generate product descriptions based on the product name and price.
+  - Integrated OpenAI API to generate AI-based product descriptions.
+
+- **Multilingual Support:**
+  - Added support for multilingual product descriptions (e.g., German/English) with placeholders for manual or AI-based translations.
+
+- **SEO Optimization:**
+  - Basic support for automatically generating SEO meta descriptions based on product data.
